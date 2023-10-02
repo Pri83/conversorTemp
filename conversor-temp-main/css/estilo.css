@@ -1,0 +1,151 @@
+
+/**Importe das duas fontes obrigatória**/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,500&family=Mooli&family=Raleway:wght@100;300;500&display=swap');
+
+/**Desenvolvimento do fundo da página**/
+body{
+    font-family: raleway, sans-serif;
+    background: linear-gradient(to top, #ed0808, #7b0101);
+    margin: 4px;
+    padding: 8px;
+    display:flex; 
+    flex-direction: column;   
+    align-items: center;
+    min-height: 100vh; 
+}
+
+/**Desenvolvimento dos campos de seleção**/
+form{
+    font-family: Mooli, sans-serif;
+    background-color: rgba(213, 210, 210, 0.8);
+    padding: 16px;
+    border-radius: 4px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5);
+  }
+
+  /**Desenvolvimento do texto TEMPUR**/
+h1{
+    color:rgb(14, 1, 1);    
+    margin: auto;
+    font-size: 70px;  
+}
+
+/**Desenvolvimento do texto "Conversor de Temperaturas"**/
+h2{
+    color: #fafaf8;
+    
+}
+
+
+
+/**Desenvolvimento das barras "Input" e "Select"**/
+input, select{
+width: 100%;
+padding: 8px;
+border: 1px solid#ccc;
+border-radius: 8px;
+margin-bottom: 16px;
+margin-top: 4px;
+box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
+
+/**Desenvolvimento do CABEÇALHO**/
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8ed1f0;
+    padding: 10px ;
+    display: block;
+    max-width: 1400px;
+    box-shadow: 0px 3px 10px;
+    margin-top: -12px;
+    width: 1298px;
+
+  }
+
+  /**Desenvolvimento dos menus "Home, Sobre e Contato"**/
+  nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1000px;
+    padding-left: 1000px;
+    
+  }
+
+
+      image{
+        margin: 0;
+        width: 50%;
+        height: 30px;
+        align-items: center;
+      }
+ 
+
+
+
+
+/**Versão CSS para mobile**/
+
+      @media screen and (max-width: 375px){
+        h1{
+          font-size: 50px;
+          line-height: 20px;
+          color: #f8f7f7;
+        }
+
+        h2{
+          color: rgb(4, 4, 14);
+        }
+
+        .flex{
+          flex-direction: column;
+        }
+
+        form{
+          font-family: Mooli, sans-serif;
+          background-color: rgba(213, 210, 210, 0.8);
+          padding: 10px;
+          border-radius: 4px;
+          width: 5%;
+          box-shadow: 0 4px 8px rgb(0,0,0,0.5);
+          width: 80%;
+          margin: 0%;
+        }
+
+       header{
+        width: 350px;
+        background-color: #969c9c;
+       }
+
+       nav{
+        padding:0 auto;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 1000px;
+        padding-left: 50px;
+        margin: 1cm;
+       }
+
+       body{
+        background: linear-gradient(to top, #3a0433, #874aaf);
+       }
+
+
+      } 
+        
+        
+
+
+      
+
+    
